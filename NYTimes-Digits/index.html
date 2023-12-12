@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Digits</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script>
+const digits = [
+    1, 2, 3, 10, 5, 25
+];
+const goal = 90;
+
+const not_selected_digit = 'white';
+const not_selected_action =  'black';
+const selected_digit_c =  '#6ee65e';
+const selected_action_c =  '#00a30e';
+    </script>
+    <div id="game-outer">
+        <div id="game">
+            <div class="outer-element">
+                <div class="element" id="goal"></div>
+            </div>
+
+            <div class="outer-element">
+                <table class="element" id="digits"></table>
+            </div>
+
+            <div class="outer-element">
+                <table class="element" id="actions"></table>
+            </div>
+        </div>
+    </div>
+
+    <script src="digits.js"></script>
+</body>
+
+</html>

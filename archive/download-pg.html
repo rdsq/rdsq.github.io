@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Page</title>
+    <style>
+        #box {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        #box * {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <input type="text" id="url" placeholder="URL...">
+        <button onclick="download()">Download</button>
+    </div>
+</body>
+<script src="/download-pg.js"></script>
+<script>
+    function download() {
+        downloadPage(document.getElementById('url').value);
+    }
+</script>
+</html>

@@ -1,0 +1,46 @@
+#box {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#game {
+    border-collapse: collapse;
+}
+
+.in-box {
+    background-color: #aaaaaad2;
+    text-align: center;
+    border-radius: 5px;
+    font-size: large;
+    margin: 0.1em;
+}
+
+#restart {
+    display: none;
+    cursor: pointer;
+}
+
+#game tr td {
+    height: 2em;
+    width: 2em;
+    padding: 0.2em;
+    background-color: #aaaaaad2;
+    text-align: center;
+    border: solid white 2px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 1.3em;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+    #game tr td {
+        border-color: black;
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "pages": [
+        ["NYTimes Digits", "NYTimes-Digits", "NYTimes-Digits.html"],
+        ["ClipWriter", "ClipWriter.html", "ClipWriter.html"],
+        ["PWA Test", "pwa-test", "pwa-test.html"],
+        ["XO", "XO", "XO.html"]
+    ],
+    "archive": [
+        ["XO", "archive/XO", "XO-1.html"],
+        ["Download Page", "archive/download-pg.html", "download-pg.html"]
+    ]
+}

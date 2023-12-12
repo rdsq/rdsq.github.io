@@ -1,0 +1,16 @@
+{
+    "name": "My App",
+    "short_name": "My App",
+    "start_url": "index.html",
+    "display": "standalone",
+    "backgroung_color": "#ffffff",
+    "icons": [
+        {
+            "src": "icon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable any"
+        }
+    ],
+    "background-color": "black"
+}

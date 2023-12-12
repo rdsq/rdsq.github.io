@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+}
+
+.element {
+    border-radius: 25px;
+    background-color: #c2c2c2;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.inp {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: #333;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    outline: none;
+    float: left;
+}
+
+#field {
+    font-size: 30px;
+    padding: 30px;
+    font-family: monospace, monospace;
+}
+
+#inp-field {
+    width: 100px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#inp-button {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#controls {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#message {
+    background-color: #f2f2a2;
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
